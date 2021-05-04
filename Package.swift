@@ -14,8 +14,8 @@ let package = Package(
       targets: ["MultiProgressView"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/Quick/Quick", from: "2.1.0"),
-    .package(url: "https://github.com/Quick/Nimble", from: "8.0.2")
+    .package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "3.0.0")),
+    .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "9.0.0"))
   ],
   targets: [
     .target(
